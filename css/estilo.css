@@ -1,0 +1,36 @@
+body {
+    background-image: url('https://i1.wp.com/www.barcodetech.com.br/novo/wp-content/uploads/2018/03/blue-tech-circuit-board-technology-animated-background-video-graphic-design-hd-1920x1080_ewva7rwie__F0000.png');
+    background-size: auto 100vh;
+    font-family:Arial;
+    height: 100vh;
+  }
+  
+  .menu{
+    background-color: white;
+  }
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li{
+    list-style: none;
+  }
+  
+  a{
+    color: teal;
+    text-decoration: none;
+   }
+  
+  .site-subtitle,
+  .site-title{
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .site-subtitle{
+    font-style: italic;
+  }
+  
+  
