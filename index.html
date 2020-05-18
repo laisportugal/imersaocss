@@ -6,15 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Laís Portugal</title>
   <link rel="stylesheet" href="css/estilo.css">
-  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital@1&family=Roboto&display=swap" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital@1&family=Roboto&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d2ae9c85e9.js" crossorigin="anonymous"></script>
+</head>
 
 <body>
   <header>
     <nav class="menu">
       <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Portifolio</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#portifolio">Portifolio</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
     <div>
@@ -22,26 +25,37 @@
       <h2 class="site-subtitle">Java Developer</h2>
     </div>
   </header>
-  <section>
-    <h2>Portfólio</h2>
-    <figure>
-      <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-      <figcaption>eCommerce</figcaption>
-    </figure>
-    <figure>
-      <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-      <figcaption>Mobile</figcaption>
-    </figure>
-    <figure>
-      <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-      <figcaption>Web design</figcaption>
-    </figure>
-    <figure>
-      <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
-      <figcaption>Projetos pessoais</figcaption>
-    </figure>
+  <section class="portifolio" id="portifolio">
+    <h2>Serviços</h2>
+    <div class="grid">
+      <figure>
+        <img class="img-portfolio" src="./img/programacao.jpg" alt="Desenvolvimento Aplicações">
+        <figcaption>Desenvolvimento Aplicações Java</figcaption>
+      </figure>
+      <figure>
+        <img class="img-portfolio" src="./img/testes automatizados.png" alt=">Testes Automatizados">
+        <figcaption>Testes de Automatizados</figcaption>
+      </figure>
+      <figure>
+        <img class="img-portfolio" src="./img/photoshop.jpg" alt="Edição de fotos">
+        <figcaption>Edição de fotos</figcaption>
+      </figure>
+    </div>
   </section>
-
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <div class="icons">
+      <a target="github" href="https://github.com/laisportugal">
+        <i class="fab fa-github"></i>
+      </a>
+      <a target="linkedin" href="https://www.linkedin.com/in/laisportugal/">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:lais.silv4@gmail.com">
+        <i class="far fa-envelope"></i>
+      </a>
+    </div>
+  </section>
 </body>
 
 </html>
